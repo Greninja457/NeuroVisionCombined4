@@ -1,0 +1,74 @@
+(venv) PS C:\NeuroVisionCombined4> python C:\NeuroVisionCombined4\models\classes\classifier_train.py
+damaged images collected: 418
+blurry images collected: 1029
+dark images collected: 1589
+foggy images collected: 12000
+Normal images collected from C:\NeuroVisionCombined4\data\gopro_deblur\sharp\images: 1029
+Normal images collected from C:\NeuroVisionCombined4\data\LOL-v2\Real_captured\Train\Normal: 689
+Normal images collected from C:\NeuroVisionCombined4\data\LOL-v2\Synthetic\Train\Normal: 900
+Normal images collected from C:\NeuroVisionCombined4\data\RESIDE-6K\train\GT: 6000
+Normal images collected from C:\NeuroVisionCombined4\data\RESIDE-ITS\clear: 1399
+Normal images collected from C:\NeuroVisionCombined4\data\coco_minitrain_10k\images\train2017: 10000
+
+Using 8000 normal images
+
+================================================
+CLASS DISTRIBUTION
+================================================
+normal: 8000
+dark: 1589
+foggy: 12000
+damaged: 418
+blurry: 1029
+
+================================================
+TRAINING STARTED
+================================================
+
+Epoch [1/10]:   0%|                                                                 | 2/1440 [00:02<26:12,  1.09s/it, loss=0.685]C:\NeuroVisionCombined4\venv\Lib\site-packages\PIL\Image.py:3574: DecompressionBombWarning: Image size (133447680 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+Epoch [1/10]: 100%|█████████████████████████████████████████████████████████████| 1440/1440 [29:19<00:00,  1.22s/it, loss=0.0287]
+
+Epoch 1 Average Loss: 0.0926
+
+Epoch [2/10]: 100%|██████████████████████████████████████████████████████████████| 1440/1440 [26:35<00:00,  1.11s/it, loss=0.027]
+
+Epoch 2 Average Loss: 0.0460
+
+Epoch [3/10]: 100%|█████████████████████████████████████████████████████████████| 1440/1440 [29:38<00:00,  1.23s/it, loss=0.0771]
+
+Epoch 3 Average Loss: 0.0343
+
+Epoch [4/10]: 100%|██████████████████████████████████████████████████████████████| 1440/1440 [46:30<00:00,  1.94s/it, loss=0.393]
+
+Epoch 4 Average Loss: 0.0316
+
+Epoch [5/10]: 100%|█████████████████████████████████████████████████████████████| 1440/1440 [31:03<00:00,  1.29s/it, loss=0.0584]
+
+Epoch 5 Average Loss: 0.0274
+
+Epoch [6/10]: 100%|█████████████████████████████████████████████████████████████| 1440/1440 [31:32<00:00,  1.31s/it, loss=0.0307]
+
+Epoch 6 Average Loss: 0.0232
+
+Epoch [7/10]: 100%|███████████████████████████████████████████████████████████| 1440/1440 [48:37<00:00,  2.03s/it, loss=0.000443]
+
+Epoch 7 Average Loss: 0.0220
+
+Epoch [8/10]: 100%|████████████████████████████████████████████████████████████| 1440/1440 [32:31<00:00,  1.36s/it, loss=0.00143]
+
+Epoch 8 Average Loss: 0.0211
+
+Epoch [9/10]: 100%|████████████████████████████████████████████████████████████| 1440/1440 [33:05<00:00,  1.38s/it, loss=0.00815]
+
+Epoch 9 Average Loss: 0.0200
+
+Epoch [10/10]: 100%|████████████████████████████████████████████████████████████| 1440/1440 [51:56<00:00,  2.16s/it, loss=0.0706]
+
+Epoch 10 Average Loss: 0.0190
+
+
+================================================
+MODEL SAVED
+================================================
+C:\NeuroVisionCombined4\models\pth\classifier.pth

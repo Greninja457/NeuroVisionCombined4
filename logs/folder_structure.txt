@@ -1,0 +1,54 @@
+root:
+    data:
+    faces:
+        <all images of faces>
+    gopro_deblur:
+        blur:
+            images:
+                <all blur examples>
+        sharp:
+            images:
+                <all sharp counterparts>
+    lol_dataset:
+        test:
+            high:
+                <all well lit images>
+            low:
+                <all dark images>
+        train:
+            high:
+                <all well lit images>
+            low:
+                <all dark images>
+    RESIDE-6k:
+        test:
+            GT:
+                <all non hazy images>
+            hazy:
+                <all hazy images>
+        train:
+            GT:
+                <all non hazy images>
+            hazy:
+                <all hazy images>
+
+    RAG:
+        chroma.py
+        db_conn.py
+        embedder.py
+        load_dataset.py
+        similarity_search.py
+
+
+
+original images are there in the folders
+
+C:\\NeuroVisionCombined4\\data\\faces
+C:\\NeuroVisionCombined4\\data\\gopro_deblur\\sharp\\images
+C:\\NeuroVisionCombined4\\data\\lol_dataset\\train\\high
+C:\\NeuroVisionCombined4\\data\\RESIDE-6K\\train\\GT
+
+and their faulty counterparts are in the folder 
+C:\\NeuroVisionCombined4\\data\\gopro_deblur\\blur\\images
+C:\\NeuroVisionCombined4\\data\\lol_dataset\\train\\low
+C:\\NeuroVisionCombined4\\data\\RESIDE-6K\\train\\hazy
