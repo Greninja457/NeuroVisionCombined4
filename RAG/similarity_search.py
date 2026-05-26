@@ -1,5 +1,5 @@
-from embedder import embed_image
-from db_conn import get_collection
+from RAG.embedder import embed_image
+from RAG.db_conn import get_collection
 
 collection = get_collection()
 
